@@ -7,7 +7,7 @@ body{
     background-color: #F7F8F6;
 }
 header{
-    /*position: fixed;*/
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -16,7 +16,7 @@ header{
     transition: 0.75s;
     padding: 30px 20px;
     z-index: 10;
-    background-color: #F7F8F6;
+    /*background-color: #F7F8F6;*/
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -59,7 +59,7 @@ header ul li a{
     /*font-family: helvetica;*/
     margin: 0 15px;
     text-decoration: none;
-    color: #000;
+    color: #fff;
     letter-spacing: 1px;
     font-weight: 600;
     transition: 0.7s;
@@ -88,3 +88,58 @@ header.abajo .logo,
 header.abajo ul li a{
     color: #000;
 }
+
+
+.slider-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* sombra negra con opacidad */
+    z-index: 1;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 750px; /* Puedes ajustar la altura */
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+}
+.carousel-text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.carousel-text-overlay h1 {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.custom-btn {
+    background-color: #D7903E !important;
+    color: #fff !important;
+    border-radius: 999px;
+    border: none;
+    padding: 0.6rem 1.5rem; /* ← Menos alto, más ancho */
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+
+
+.custom-btn:hover {
+  background-color: #e07b39 !important; /* Color al pasar el mouse */
+}
+
+
+
+
+
+

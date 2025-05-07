@@ -7,4 +7,12 @@
         flex-direction: row; /* asegura alineación horizontal */
         align-items: center;
     }
+
 }
+
+@media (max-width: 768px) {
+    .carousel-text-overlay h1 {
+        font-size: 3.5rem;
+    }
+}
+
