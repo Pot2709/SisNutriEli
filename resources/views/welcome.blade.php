@@ -68,11 +68,6 @@
 
 
 
-
-
-
-
-
         <header>
             <a href="#" class="logo">LOGO</a>
             <nav>
@@ -87,9 +82,23 @@
         <section class="mb-5">
             <div class="row g-0">
                 <div id="carouselExample" class="carousel slide carousel-fade position-relative" data-bs-ride="carousel" data-bs-interval="2900">
-
+                    <div class="carousel-inner">
+                        <div class="carousel-item active position-relative">
+                            <img src="assets/images/slider/1.jpg" class="d-block w-100" alt="Imagen 1">
+                            <div class="slider-overlay"></div>
+                        </div>
+                        <div class="carousel-item position-relative">
+                            <img src="assets/images/slider/2.jpg" class="d-block w-100" alt="Imagen 2">
+                            <div class="slider-overlay"></div>
+                        </div>
+                        <div class="carousel-item position-relative">
+                            <img src="assets/images/slider/3.jpg" class="d-block w-100" alt="Imagen 3">
+                            <div class="slider-overlay"></div>
+                        </div>
+                    </div>
+                    
                     <!-- Texto estático centrado -->
-                    <div class="carousel-text-overlay d-flex flex-column justify-content-center align-items-center text-center">
+                    <div class="carousel-text d-flex flex-column justify-content-center  align-items-center text-center">
                         <h1 class="font-titulo text-white" style="line-height: 1.2;">
                             Encuentra tu equilibrio<br>
                             nutricional con Eliane Hurtado
@@ -117,20 +126,7 @@
 
                     </div>
 
-                    <div class="carousel-inner">
-                        <div class="carousel-item active position-relative">
-                            <img src="assets/images/slider/1.jpg" class="d-block w-100" alt="Imagen 1">
-                            <div class="slider-overlay"></div>
-                        </div>
-                        <div class="carousel-item position-relative">
-                            <img src="assets/images/slider/2.jpg" class="d-block w-100" alt="Imagen 2">
-                            <div class="slider-overlay"></div>
-                        </div>
-                        <div class="carousel-item position-relative">
-                            <img src="assets/images/slider/3.jpg" class="d-block w-100" alt="Imagen 3">
-                            <div class="slider-overlay"></div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -139,9 +135,14 @@
         <section class="mt-5" style="margin-bottom: 100px;">
             <div class="container">
                 <div class="row">
-                    <div class="d-flex flex-column justify-content-center align-items-center text-center mt-5">
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-8 d-flex flex-column justify-content-center align-items-center text-center mt-5">
+                        <div class="circulo mb-5"></div>
+
                         <div class="d-flex flex-column justify-content-center align-items-center text-center">
-                            <h1 class="font-titulo fs-1" style="line-height: 1.2;">
+                            <h1 class="font-titulo fs-1">
                                 Soy Eliane Hurtado<br>
                                 y soy una apasionada de la nutrición.
                             </h1>
@@ -154,24 +155,52 @@
                         </div>
                     </div>
 
+                    <div class="col-md-2">
+
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="mt-5">
             <div class="row g-0">
-                <div class="col-8">
-                    <img src="assets/images/seccion3.jpg" alt="">
+                <div class="col-6">
+                    <div class="container">
+
+                        <div class="dropdown d-flex flex-column justify-content-center align-items-center   text-center">
+                            <button class="dropdown-button mb-3">Nutrición Infantil <i class="bi bi-plus-circle-fill"></i> </button>
+                            <div class="dropdown-content">
+                              Desde la introducción de alimentos sólidos hasta el desarrollo de hábitos alimenticios saludables, con mi servicio de nutrición infantil en Tenerife sentaremos las bases de un crecimiento óptimo y una nutrición equilibrada desde los primeros días en la vida de tu bebé.
+                            </div>
+                        </div>
+
+                        <div class="dropdown d-flex flex-column justify-content-center align-items-center   text-center">
+                            <button class="dropdown-button mb-3">Nutrición Infantil <i class="bi bi-plus-circle-fill"></i> </button>
+                            <div class="dropdown-content">
+                              Desde la introducción de alimentos sólidos hasta el desarrollo de hábitos alimenticios saludables, con mi servicio de nutrición infantil en Tenerife sentaremos las bases de un crecimiento óptimo y una nutrición equilibrada desde los primeros días en la vida de tu bebé.
+                            </div>
+                        </div>
+                        
+                        <div class="dropdown d-flex flex-column justify-content-center align-items-center   text-center">
+                            <button class="dropdown-button mb-3">Nutrición Infantil <i class="bi bi-plus-circle-fill"></i> </button>
+                            <div class="dropdown-content">
+                              Desde la introducción de alimentos sólidos hasta el desarrollo de hábitos alimenticios saludables, con mi servicio de nutrición infantil en Tenerife sentaremos las bases de un crecimiento óptimo y una nutrición equilibrada desde los primeros días en la vida de tu bebé.
+                            </div>
+                        </div>
+                        
+                        <div class="dropdown d-flex flex-column justify-content-center align-items-center   text-center">
+                            <button class="dropdown-button mb-3">Nutrición Infantil <i class="bi bi-plus-circle-fill"></i> </button>
+                            <div class="dropdown-content">
+                              Desde la introducción de alimentos sólidos hasta el desarrollo de hábitos alimenticios saludables, con mi servicio de nutrición infantil en Tenerife sentaremos las bases de un crecimiento óptimo y una nutrición equilibrada desde los primeros días en la vida de tu bebé.
+                            </div>
+                        </div>
+                    </div>
+                   
+
                 </div>
 
-                <div class="col-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <a href="#" class="card-link">Card link</a>
-                          <a href="#" class="card-link">Another link</a>
-                        </div>
-                      </div>
+                <div class="col-6s">
+                    
                 </div>
             </div>
         </section>
@@ -183,6 +212,8 @@
                 var header = document.querySelector("header");
                 header.classList.toggle("abajo", window.scrollY>0);
             })
+
+            
         </script>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

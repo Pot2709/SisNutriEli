@@ -34,7 +34,7 @@ header .logo{
 
 header.abajo{
     background: #fff;
-    padding: 30px 30px;
+    padding: 25px 25px;
 
 }
 
@@ -109,7 +109,7 @@ header.abajo ul li a{
     position: relative;
     z-index: 0;
 }
-.carousel-text-overlay {
+.carousel-text {
     position: absolute;
     top: 0;
     left: 0;
@@ -119,6 +119,10 @@ header.abajo ul li a{
 }
 
 .font-titulo{
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold;
+}
+.font-parrafo{
     font-family: 'Comfortaa', sans-serif;
 }
 
@@ -161,8 +165,48 @@ header.abajo ul li a{
     font-weight: 600;
     font-size: 1rem;
   }
+.circulo {
+    width: 20px;     
+    height: 20px;    
+    background-color: #F8C181; 
+    border-radius: 50%;
+  }
 
 
 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
 
+  .dropdown-button {
+    background: transparent;
+    border: 2px solid #F8C181;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #F8C181;
+    padding: 15px;
+    width: 300px;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    border-radius: 5px;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
