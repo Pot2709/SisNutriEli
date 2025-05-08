@@ -67,14 +67,6 @@ header ul li a{
     transition: 0.7s;
 }
 
-.videoPortada{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    /* background: url(images/videoportada.mp4); */
-    background-size: cover;
-    background-position: center center;
-}
 
 .img-fluid{
     width: 100%;
@@ -126,6 +118,10 @@ header.abajo ul li a{
     font-family: 'Comfortaa', sans-serif;
 }
 
+.font-parrafo-services{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 13px;
+}
 .carousel-text-overlay h1 {
     font-size: 3.5rem;
     font-weight: 600;
@@ -165,6 +161,7 @@ header.abajo ul li a{
     font-weight: 600;
     font-size: 1rem;
   }
+
 .circulo {
     width: 20px;     
     height: 20px;    
@@ -172,41 +169,65 @@ header.abajo ul li a{
     border-radius: 50%;
   }
 
+  .circulo-morado {
+    width: 20px;     
+    height: 20px;    
+    background-color: #D3DBA9; 
+    border-radius: 50%;
+  } 
+  .quiero-btn {
+    background-color: #783D5A !important;
+    color: #fff !important;
+    border-radius: 999px;
+    border: none;
+    padding: 0.6rem 1.5rem; /* ← Menos alto, más ancho */
+    font-weight: 600;
+    font-size: 1rem;
+  }
 
 
-  .dropdown {
+
+
+
+
+  .dropdown-ser {
     position: relative;
     display: inline-block;
     width: 100%;
+    
   }
 
-  .dropdown-button {
+  .dropdown-button-service {
     background: transparent;
     border: 2px solid #F8C181;
     color: #333;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px;
     transition: all 0.3s ease;
+    width: 100%;
+    border-radius: 15px;
   }
 
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background: rgba(255, 255, 255, 0.9);
-    border: 2px solid #F8C181;
+.dropdown-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+  background: rgba(255, 255, 255, 0.95);
+  border: 2px solid #F8C181;
+  border-radius: 5px;
+  padding: 0 15px; /* sin padding vertical al inicio */
+  color: #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown.show .dropdown-content {
+    max-height: 500px; /* suficiente para todo el texto */
     padding: 15px;
-    width: 300px;
-    top: 100%;
-    left: 0;
-    z-index: 1;
+}
+
+.cuadro {
+    border: 1px solid #B0AEA0; /* Borde negro y delgado */
+    padding: 10px;           /* Espacio interior opcional */
     border-radius: 5px;
-    color: #333;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
+}
