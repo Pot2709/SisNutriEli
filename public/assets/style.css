@@ -17,7 +17,9 @@ header{
     padding: 30px 20px;
     z-index: 10;
     /*background-color: #F7F8F6;*/
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.4);
+
 }
 
 header .logo{
@@ -32,7 +34,7 @@ header .logo{
 
 header.abajo{
     background: #fff;
-    padding: 15px 20px;
+    padding: 30px 30px;
 
 }
 
@@ -116,8 +118,11 @@ header.abajo ul li a{
     z-index: 10;
 }
 
-.carousel-text-overlay h1 {
+.font-titulo{
     font-family: 'Comfortaa', sans-serif;
+}
+
+.carousel-text-overlay h1 {
     font-size: 3.5rem;
     font-weight: 600;
 }
@@ -130,7 +135,6 @@ header.abajo ul li a{
     padding: 0.6rem 1.5rem; /* ← Menos alto, más ancho */
     font-weight: 600;
     font-size: 1rem;
-    transition: background-color 0.3s ease;
   }
 
 
@@ -138,6 +142,25 @@ header.abajo ul li a{
   background-color: #e07b39 !important; /* Color al pasar el mouse */
 }
 
+.custom-services {
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    padding: 2rem 2rem;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.conoceme-btn {
+    background-color: #B3BB89 !important;
+    color: #fff !important;
+    border-radius: 999px;
+    border: none;
+    padding: 0.6rem 1.5rem; /* ← Menos alto, más ancho */
+    font-weight: 600;
+    font-size: 1rem;
+  }
 
 
 
