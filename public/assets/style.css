@@ -112,16 +112,27 @@ header.abajo ul li a{
 
 .font-titulo{
     font-family: 'Comfortaa', sans-serif;
-    font-weight: bold;
+    font-weight: bold !important;
+
 }
 .font-parrafo{
     font-family: 'Comfortaa', sans-serif;
 }
-
+.font-titulo-porque{
+   font-family: 'Comfortaa', sans-serif;
+   font-weight: bold;
+}
 .font-parrafo-services{
     font-family: 'Comfortaa', sans-serif;
-    font-size: 13px;
+    font-size: 17px;
 }
+
+.font-titulo-services{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 17px;
+    font-weight: bold !important;
+}
+
 .carousel-text-overlay h1 {
     font-size: 3.5rem;
     font-weight: 600;
@@ -163,18 +174,18 @@ header.abajo ul li a{
   }
 
 .circulo {
-    width: 20px;     
-    height: 20px;    
-    background-color: #F8C181; 
+    width: 20px;
+    height: 20px;
+    background-color: #F8C181;
     border-radius: 50%;
   }
 
   .circulo-morado {
-    width: 20px;     
-    height: 20px;    
-    background-color: #D3DBA9; 
+    width: 20px;
+    height: 20px;
+    background-color: #D3DBA9;
     border-radius: 50%;
-  } 
+  }
   .quiero-btn {
     background-color: #783D5A !important;
     color: #fff !important;
@@ -194,7 +205,7 @@ header.abajo ul li a{
     position: relative;
     display: inline-block;
     width: 100%;
-    
+
   }
 
   .dropdown-button-service {
@@ -230,4 +241,8 @@ header.abajo ul li a{
     border: 1px solid #B0AEA0; /* Borde negro y delgado */
     padding: 10px;           /* Espacio interior opcional */
     border-radius: 5px;
+}
+
+.footer{
+    background-color: #EFECE3;
 }

@@ -17,6 +17,7 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700;900&display=swap" rel="stylesheet">
 
 
 
@@ -31,41 +32,6 @@
     </head>
 
     <body>
-
-
-
-
-
-        {{-- <header class="w-full lg:max-w-4xl max-w-[335px] text-sm mb-6 not-has-[nav]:hidden">
-            @if (Route::has('login'))
-                <nav class="flex items-center justify-end gap-4">
-                    @auth
-                        <a
-                            href="{{ url('/dashboard') }}"
-                            class="inline-block px-5 py-1.5 dark:text-[#EDEDEC] border-[#19140035] hover:border-[#1915014a] border text-[#1b1b18] dark:border-[#3E3E3A] dark:hover:border-[#62605b] rounded-sm text-sm leading-normal"
-                        >
-                            Dashboard
-                        </a>
-                    @else
-                        <a
-                            href="{{ route('login') }}"
-                            class="inline-block px-5 py-1.5 dark:text-[#EDEDEC] text-[#1b1b18] border border-transparent hover:border-[#19140035] dark:hover:border-[#3E3E3A] rounded-sm text-sm leading-normal"
-                        >
-                            Log in
-                        </a>
-
-                        @if (Route::has('register'))
-                            <a
-                                href="{{ route('register') }}"
-                                class="inline-block px-5 py-1.5 dark:text-[#EDEDEC] border-[#19140035] hover:border-[#1915014a] border text-[#1b1b18] dark:border-[#3E3E3A] dark:hover:border-[#62605b] rounded-sm text-sm leading-normal">
-                                Register
-                            </a>
-                        @endif
-                    @endauth
-                </nav>
-            @endif
-        </header>	 --}}
-
 
 
         <header>
@@ -97,10 +63,10 @@
                             <div class="slider-overlay"></div>
                         </div>
                     </div>
-                    
+
                     <!-- Texto estático centrado -->
                     <div class="carousel-text d-flex flex-column justify-content-center  align-items-center text-center">
-                        <h1 class="font-titulo text-white" style="line-height: 1.2;">
+                        <h1 class="font-titulo fs-1 text-white" style="line-height: 1.2;">
                             Encuentra tu equilibrio<br>
                             nutricional con Eliane Hurtado
                             </h1>
@@ -127,7 +93,7 @@
 
                     </div>
 
-                    
+
                 </div>
             </div>
         </section>
@@ -166,7 +132,7 @@
         <section class="mt-5">
             <div class="row g-0">
                 <div class="col-6 px-5">
-                    <h1 class="font-titulo">Mis servicios de nutrición</h1>
+                    <h1 class="font-titulo fs-1">Mis servicios de nutrición</h1>
 
                     <div class="">
 
@@ -219,12 +185,12 @@
                                 </div>
                             </div>
                         </div>
-                       
+
                        <div classs="col-md-2">
                        </div>
-                    
+
                     </div>
-                   
+
 
                 </div>
 
@@ -244,11 +210,11 @@
                 <div class="col-md-8">
 
                     <div class="row g-0">
-                        <div class="col-md-12">
+                        <div class="col-md-12 mb-5">
                             <div class="mt-5 px-5">
                                 <div class="circulo mt-5"></div>
                                 <div class="mt-5">
-                                    <h1 class="font-titulo">¿Por qué soy la Nutricionista en Tenerife que buscas?</h1>
+                                    <h1 class="font-titulo fs-1 mb-3">¿Por qué soy la Nutricionista en Tenerife que buscas?</h1>
                                     <p class="font-parrafo">Por estas seis cosas que me diferencian de otro/as nutricionistas:</p>
                                 </div>
                             </div>
@@ -257,19 +223,19 @@
                         <div class="row g-0 px-5">
                             <div class="col-6 mb-0">
                                 <div>
-                                    <h6 class="font-titulo">Me  encanta  explicar</h6>
+                                    <h6 class="font-titulo mb-0">Me  encanta  explicar</h6>
                                     <p class="font-parrafo-services">Considero que el conocimiento es poder, así que me gusta que entiendas siempre el porqué, para qué y el cómo de las cosas.
                                     </p>
                                 </div>
-                                <div>
+                                <div class="mt-5">
                                     <h6 class="font-titulo">Me apasiona comer</h6>
                                     <p class="font-parrafo-services">Odio pasar hambre, y puedes estar seguro/a de que el hambre no es algo que vayas a experimentar conmigo en consulta.
                                     </p>
                                 </div>
-                                <div>
+                                <div class="mt-5">
                                     <h6 class="font-titulo">Me gusta sorprenderte</h6>
                                     <p class="font-parrafo-services">Comer arroz blanco con pollo a la plancha y lechuga ¡me parece un desperdicio de comida! Siempre intento descubrirte nuevos alimentos y recetas para darle vida a tu plato.
-                                        
+
                                     </p>
                                 </div>
                             </div>
@@ -293,7 +259,7 @@
                             <div class="mt-5 px-5">
                                 <div class="circulo-morado mt-5"></div>
                                 <div class="mt-5 mb-5">
-                                    <h1 class="font-titulo">Si buscas pequeños pasos para grandes resultados, soy tu Nutricionista, pero...</h1>
+                                    <h1 class="font-titulo fs-1">Si buscas pequeños pasos para grandes resultados, soy tu Nutricionista, pero...</h1>
                                     <p class="font-parrafo">Por estas seis cosas que me diferencian de otro/as nutricionistas:</p>
                                 </div>
                             </div>
@@ -301,33 +267,33 @@
 
                         <div class="row g-0 px-5">
                             <div class="col-6 mb-2">
-                                <div class="mb-4">
-                                    <h6 class="font-titulo">
+                                <div class="mb-5">
+                                    <h6 class="font-titulo-services">
                                         Perder peso de manera rapidísima
                                     </h6>
                                     <p class="font-parrafo-services">Si quieres perder diez kg en siete días no soy tu nutricionista. Creo que la salud se construye de manera sostenible a lo largo del tiempo.
                                     </p>
                                 </div>
-                                <div class="mb-4">
-                                    <h6 class="font-titulo">Ayudarte a comprar suplementos para perder peso</h6>
+                                <div class="mb-5">
+                                    <h6 class="font-titulo-services">Ayudarte a comprar suplementos para perder peso</h6>
                                     <p class="font-parrafo-services">En algunos casos son importantes, pero no los considero la base de una nutrición equilibrada.
                                     </p>
                                 </div>
-                                <div class="mb-4">
-                                    <h6 class="font-titulo">“Talibanear” alimentos “no saludables” </h6>
+                                <div class="mb-5">
+                                    <h6 class="font-titulo-services">“Talibanear” alimentos “no saludables” </h6>
                                     <p class="font-parrafo-services">Creo en el equilibrio, con el disfrute ocasional de hamburguesas, pizzas o tartas, siempre en el contexto de una dieta globalmente equilibrada y adaptada a las necesidades individuales.
                                     </p>
                                 </div>
                             </div>
 
                             <div class="col-6">
-                                <div class="mb-4">
-                                    <h6 class="font-titulo">Despilfarrar dinero en super-alimentos</h6>
+                                <div class="mb-5">
+                                    <h6 class="font-titulo-services">Despilfarrar dinero en super-alimentos</h6>
                                     <p class="font-parrafo-services">La clave para mí está en la variedad y calidad de la dieta.
                                     </p>
                                 </div>
                                 <div>
-                                    <h6 class="font-titulo">Sustituir comidas por batidos</h6>
+                                    <h6 class="font-titulo-services">Sustituir comidas por batidos</h6>
                                     <p class="font-parrafo-services">CAbogo por una alimentación natural basada en alimentos reales y sabrosos.
                                     </p>
                                 </div>
@@ -349,12 +315,12 @@
             <div class="container">
                 <div class="row">
                     <div class="cuadro row">
-        
+
                         <div class="col-md-6 mt-5">
                             <div>
-                                <h4 class="font-titulo ">
+                                <h1 class="font-titulo fs-2">
                                     Quiero que disfrutes y aprendas a llevar una alimentación saludable acorde con tus circunstancias y necesidades.
-                                </h4>
+                                </h1>
 
                                 <p class="font-parrafo mt-3">Aunque es un camino un poco más lento, los resultados son más sostenibles a largo plazo. No más efecto rebote, cambios bruscos de peso en verano/Navidad/épocas de estrés, sentimientos de descontrol. El conocimiento es poder, y al trabajar conmigo, tú tendrás ambos: ¡conocimiento y poder!</p>
                             </div>
@@ -363,16 +329,31 @@
                                 Conóceme mejor aquí <i class="bi bi-arrow-right-circle-fill"></i>
                             </button>
                         </div>
-        
+
                         <div class="col-md-6">
                             <img src="assets/images/higos.jpg" alt="">
                         </div>
-        
+
                     </div>
                 </div>
             </div>
         </section>
-        
+
+        <footer class="footer">
+            <div class="row">
+                <div class="col-md-2">
+
+                </div>
+
+                <div class="col-md-8">
+
+                </div>
+
+                <div class="col-md-2">
+
+                </div>
+            </div>
+        </footer>
 
 
 
@@ -387,7 +368,7 @@
                 dropdown.classList.toggle('show');
             }
 
-            
+
         </script>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
