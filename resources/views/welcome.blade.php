@@ -15,9 +15,13 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet">
+        {{-- <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet"> --}}
 
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700;900&display=swap" rel="stylesheet">
+        {{-- <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700;900&display=swap" rel="stylesheet"> --}}
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 
 
@@ -41,6 +45,7 @@
                     <li><a href="#">SOBRE MI</a></li>
                     <li><a href="#">SERVICIOS</a></li>
                     <li><a href="#">RECETAS</a></li>
+                    <i class="bi bi-person"></i>
                 </ul>
             </nav>
         </header>
@@ -70,18 +75,18 @@
                             Encuentra tu equilibrio<br>
                             nutricional con Eliane Hurtado
                             </h1>
-                        <p class="font-titulo text-white fs-5 mt-2">Nutrición infantil, femenina y para la fertilidad en Lima.</p>
+                        <p class="font-parrafo text-white mt-2">Nutrición infantil, femenina y para la fertilidad en Lima.</p>
 
                         <button type="button" class="custom-btn mt-4">
                             Solicita tu cita aquí <i class="bi bi-arrow-right-circle-fill"></i>
                         </button>
 
-                        <div>
+                        <div class="button-services d-flex justify-content-center text-align-center">
                             <button type="button" class="custom-services mt-5">
                                 Nutrición para bebés
                             </button>
                             <button type="button" class="custom-services">
-                                Nutrición para niño/as
+                                Nutrición para niños
                             </button>
                             <button type="button" class="custom-services">
                                 Nutrición integral
@@ -90,6 +95,7 @@
                                 Nutrición para el embarazo
                             </button>
                         </div>
+
 
                     </div>
 
@@ -113,7 +119,7 @@
                                 Soy Eliane Hurtado<br>
                                 y soy una apasionada de la nutrición.
                             </h1>
-                            <p class="font-titulo fs-6 mt-4">
+                            <p class="font-parrafo fs-6 mt-4">
                                 Dicen que se me nota en los ojos!  ¡Y que me viene de bien pequeña!  Siempre me he sentido atraída por el vínculo entre la salud y la nutrición. Y más, al ir descubriendo campos de la nutrición tan apasionantes como la alimentación infantil, la alimentación complementaria para bebés, la nutrición femenina, y la nutrición como apoyo para la fertilidad. Esto es lo mío.
                             </p>
                             <button type="button" class="conoceme-btn mt-4">
@@ -134,14 +140,18 @@
                 <div class="col-6 px-5">
                     <h1 class="font-titulo fs-1">Mis servicios de nutrición</h1>
 
-                    <div class="">
-
-                       <div classs="col-md-2">
-                       </div>
-
-                       <div class="col-md-8 mt-5">
+                    <div class="mb-3">
                             <div class="dropdown">
-                                <button class="dropdown-button-service w-100 mb-3" onclick="toggleDropdown(this)">
+                                <button class="dropdown-button-service w-100" onclick="toggleDropdown(this)">
+                                Nutrición Infantil <i class="bi bi-plus-circle-fill"></i>
+                                </button>
+                                <div class="dropdown-content font-parrafo">
+                                Desde la introducción de alimentos sólidos hasta el desarrollo de hábitos alimenticios saludables, con mi servicio de nutrición infantil en Tenerife sentaremos las bases de un crecimiento óptimo y una nutrición equilibrada desde los primeros días en la vida de tu bebé.
+                                </div>
+                            </div>
+
+                            <div class="dropdown mt-2">
+                                <button class="dropdown-button-service w-100 mb-2" onclick="toggleDropdown(this)">
                                 Nutrición Infantil <i class="bi bi-plus-circle-fill"></i>
                                 </button>
                                 <div class="dropdown-content font-parrafo">
@@ -150,7 +160,7 @@
                             </div>
 
                             <div class="dropdown">
-                                <button class="dropdown-button-service w-100 mb-3" onclick="toggleDropdown(this)">
+                                <button class="dropdown-button-service w-100 mb-2" onclick="toggleDropdown(this)">
                                 Nutrición Infantil <i class="bi bi-plus-circle-fill"></i>
                                 </button>
                                 <div class="dropdown-content font-parrafo">
@@ -159,16 +169,7 @@
                             </div>
 
                             <div class="dropdown">
-                                <button class="dropdown-button-service w-100 mb-3" onclick="toggleDropdown(this)">
-                                Nutrición Infantil <i class="bi bi-plus-circle-fill"></i>
-                                </button>
-                                <div class="dropdown-content font-parrafo">
-                                Desde la introducción de alimentos sólidos hasta el desarrollo de hábitos alimenticios saludables, con mi servicio de nutrición infantil en Tenerife sentaremos las bases de un crecimiento óptimo y una nutrición equilibrada desde los primeros días en la vida de tu bebé.
-                                </div>
-                            </div>
-
-                            <div class="dropdown">
-                                <button class="dropdown-button-service w-100 mb-3" onclick="toggleDropdown(this)">
+                                <button class="dropdown-button-service w-100 mb-2" onclick="toggleDropdown(this)">
                                 Nutrición Infantil <i class="bi bi-plus-circle-fill"></i>
                                 </button>
                                 <div class="dropdown-content font-parrafo">
@@ -186,16 +187,10 @@
                             </div>
                         </div>
 
-                       <div classs="col-md-2">
-                       </div>
-
-                    </div>
-
-
                 </div>
 
                 <div class="col-6">
-                    <img src="assets/images/services.jpg" class="w-100" alt="">
+                    <img src="assets/images/services.jpg" class="vhd-100" alt="">
                 </div>
             </div>
         </section>
@@ -257,8 +252,8 @@
                     <div class="row g-0">
                         <div class="col-md-12">
                             <div class="mt-5 px-5">
-                                <div class="circulo-morado mt-5"></div>
-                                <div class="mt-5 mb-5">
+                                <div class="circulo-morado"></div>
+                                <div class="mt-3">
                                     <h1 class="font-titulo fs-1">Si buscas pequeños pasos para grandes resultados, soy tu Nutricionista, pero...</h1>
                                     <p class="font-parrafo">Por estas seis cosas que me diferencian de otro/as nutricionistas:</p>
                                 </div>
@@ -266,28 +261,28 @@
                         </div>
 
                         <div class="row g-0 px-5">
-                            <div class="col-6 mb-2">
-                                <div class="mb-5">
+                            <div class="col-6 mb-2 mt-2">
+                                <div class="mb-2">
                                     <h6 class="font-titulo-services">
                                         Perder peso de manera rapidísima
                                     </h6>
                                     <p class="font-parrafo-services">Si quieres perder diez kg en siete días no soy tu nutricionista. Creo que la salud se construye de manera sostenible a lo largo del tiempo.
                                     </p>
                                 </div>
-                                <div class="mb-5">
+                                <div class="mb-2">
                                     <h6 class="font-titulo-services">Ayudarte a comprar suplementos para perder peso</h6>
                                     <p class="font-parrafo-services">En algunos casos son importantes, pero no los considero la base de una nutrición equilibrada.
                                     </p>
                                 </div>
-                                <div class="mb-5">
+                                <div class="mb-2">
                                     <h6 class="font-titulo-services">“Talibanear” alimentos “no saludables” </h6>
                                     <p class="font-parrafo-services">Creo en el equilibrio, con el disfrute ocasional de hamburguesas, pizzas o tartas, siempre en el contexto de una dieta globalmente equilibrada y adaptada a las necesidades individuales.
                                     </p>
                                 </div>
                             </div>
 
-                            <div class="col-6">
-                                <div class="mb-5">
+                            <div class="col-6 mt-2">
+                                <div class="">
                                     <h6 class="font-titulo-services">Despilfarrar dinero en super-alimentos</h6>
                                     <p class="font-parrafo-services">La clave para mí está en la variedad y calidad de la dieta.
                                     </p>
@@ -339,17 +334,32 @@
             </div>
         </section>
 
-        <footer class="footer">
-            <div class="row">
-                <div class="col-md-2">
+        <footer class="footer mt-5">
+            <div class="row g-0">
+                <div class="d-flex justify-content-center text-center">
+                
+                    <div class="col-md-2">
 
-                </div>
+                    </div>
 
-                <div class="col-md-8">
+                    <div class="col-md-8">
+                        <div class="iconos-sociales-footer">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-youtube"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
 
-                </div>
+                        <div>
+                            <p>Páginas Legales, Accesibilidad y Mapa del sitio</p>
+                        </div>
+                        <div>
+                            <p>© Eliane Hurtado Nutrición. Todos los derechos reservados.    |   Diseño: RESERVAOS Diseños y Optimizaciones Lima-Perú</p>
+                        </div>
+                    </div>
 
-                <div class="col-md-2">
+                    <div class="col-md-2">
+
+                    </div>
 
                 </div>
             </div>

@@ -19,7 +19,6 @@ header{
     /*background-color: #F7F8F6;*/
     /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
     box-shadow: 0 1px 1px rgba(255, 255, 255, 0.4);
-
 }
 
 header .logo{
@@ -57,7 +56,7 @@ header ul li{
 
 header ul li a{
     position: relative;
-    font-size: 15px;
+    font-size: 13px;
     /*font-family: helvetica;*/
     margin: 0 15px;
     text-decoration: none;
@@ -110,32 +109,23 @@ header.abajo ul li a{
     z-index: 10;
 }
 
-.font-titulo{
-    font-family: 'Comfortaa', sans-serif;
-    font-weight: bold !important;
 
-}
 .font-parrafo{
-    font-family: 'Comfortaa', sans-serif;
-}
-.font-titulo-porque{
-   font-family: 'Comfortaa', sans-serif;
-   font-weight: bold;
-}
-.font-parrafo-services{
-    font-family: 'Comfortaa', sans-serif;
-    font-size: 17px;
+   font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    font-style: normal;
 }
 
-.font-titulo-services{
-    font-family: 'Comfortaa', sans-serif;
-    font-size: 17px;
-    font-weight: bold !important;
+.font-titulo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;
+    font-style: normal;
 }
 
 .carousel-text-overlay h1 {
-    font-size: 3.5rem;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
+    font-style: normal;
 }
 
 .custom-btn {
@@ -245,4 +235,9 @@ header.abajo ul li a{
 
 .footer{
     background-color: #EFECE3;
+    height: 100%;
+}
+
+.iconos-sociales-footer{
+    font-size: 25px;
 }
