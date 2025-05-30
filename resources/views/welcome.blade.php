@@ -38,17 +38,8 @@
     <body>
 
 
-        <header>
-            <a href="#" class="logo">LOGO</a>
-            <nav>
-                <ul>
-                    <li><a href="#">SOBRE MI</a></li>
-                    <li><a href="#">SERVICIOS</a></li>
-                    <li><a href="#">RECETAS</a></li>
-                    <i class="bi bi-person"></i>
-                </ul>
-            </nav>
-        </header>
+        <x-nav />
+
 
         <section class="mb-5">
             <div class="row g-0">
@@ -81,7 +72,7 @@
                             Solicita tu cita aquí <i class="bi bi-arrow-right-circle-fill"></i>
                         </button>
 
-                        <div class="button-services d-flex justify-content-center text-align-center">
+                        <div class="mt-4">
                             <button type="button" class="custom-services mt-5">
                                 Nutrición para bebés
                             </button>
@@ -122,9 +113,9 @@
                             <p class="font-parrafo fs-6 mt-4">
                                 Dicen que se me nota en los ojos!  ¡Y que me viene de bien pequeña!  Siempre me he sentido atraída por el vínculo entre la salud y la nutrición. Y más, al ir descubriendo campos de la nutrición tan apasionantes como la alimentación infantil, la alimentación complementaria para bebés, la nutrición femenina, y la nutrición como apoyo para la fertilidad. Esto es lo mío.
                             </p>
-                            <button type="button" class="conoceme-btn mt-4">
+                            <a href="{{ route('conoceme.index') }}" class="conoceme-btn mt-4">
                                 Conóceme mejor aquí <i class="bi bi-arrow-right-circle-fill"></i>
-                            </button>
+                            </a>
                         </div>
                     </div>
 
@@ -135,57 +126,55 @@
             </div>
         </section>
 
-        <section class="mt-5">
+        <section class="mt-5 mb-5">
             <div class="row g-0">
                 <div class="col-6 px-5">
                     <h1 class="font-titulo fs-1">Mis servicios de nutrición</h1>
 
                     <div class="mb-3">
-                            <div class="dropdown">
-                                <button class="dropdown-button-service w-100" onclick="toggleDropdown(this)">
-                                Nutrición Infantil <i class="bi bi-plus-circle-fill"></i>
-                                </button>
-                                <div class="dropdown-content font-parrafo">
-                                Desde la introducción de alimentos sólidos hasta el desarrollo de hábitos alimenticios saludables, con mi servicio de nutrición infantil en Tenerife sentaremos las bases de un crecimiento óptimo y una nutrición equilibrada desde los primeros días en la vida de tu bebé.
-                                </div>
-                            </div>
 
-                            <div class="dropdown mt-2">
-                                <button class="dropdown-button-service w-100 mb-2" onclick="toggleDropdown(this)">
-                                Nutrición Infantil <i class="bi bi-plus-circle-fill"></i>
-                                </button>
-                                <div class="dropdown-content font-parrafo">
-                                Desde la introducción de alimentos sólidos hasta el desarrollo de hábitos alimenticios saludables, con mi servicio de nutrición infantil en Tenerife sentaremos las bases de un crecimiento óptimo y una nutrición equilibrada desde los primeros días en la vida de tu bebé.
-                                </div>
-                            </div>
 
-                            <div class="dropdown">
-                                <button class="dropdown-button-service w-100 mb-2" onclick="toggleDropdown(this)">
-                                Nutrición Infantil <i class="bi bi-plus-circle-fill"></i>
-                                </button>
-                                <div class="dropdown-content font-parrafo">
-                                Desde la introducción de alimentos sólidos hasta el desarrollo de hábitos alimenticios saludables, con mi servicio de nutrición infantil en Tenerife sentaremos las bases de un crecimiento óptimo y una nutrición equilibrada desde los primeros días en la vida de tu bebé.
-                                </div>
+                         <div class="card mt-5">
+                            <div class="card-header toggle-btn">
+                                <h3 class="font-titulo">Nutrición bebés</h3>
+                                <span class="toggle-icon">+</span>
                             </div>
-
-                            <div class="dropdown">
-                                <button class="dropdown-button-service w-100 mb-2" onclick="toggleDropdown(this)">
-                                Nutrición Infantil <i class="bi bi-plus-circle-fill"></i>
-                                </button>
-                                <div class="dropdown-content font-parrafo">
-                                Desde la introducción de alimentos sólidos hasta el desarrollo de hábitos alimenticios saludables, con mi servicio de nutrición infantil en Tenerife sentaremos las bases de un crecimiento óptimo y una nutrición equilibrada desde los primeros días en la vida de tu bebé.
-                                </div>
-                            </div>
-
-                            <div class="dropdown">
-                                <button class="dropdown-button-service w-100 mb-3" onclick="toggleDropdown(this)">
-                                Nutrición Infantil <i class="bi bi-plus-circle-fill"></i>
-                                </button>
-                                <div class="dropdown-content font-parrafo">
-                                Desde la introducción de alimentos sólidos hasta el desarrollo de hábitos alimenticios saludables, con mi servicio de nutrición infantil en Tenerife sentaremos las bases de un crecimiento óptimo y una nutrición equilibrada desde los primeros días en la vida de tu bebé.
-                                </div>
+                            <div class="card-body" style="display: none;">
+                                <p class="font-parrafo">
+                                    Desde la introducción de alimentos sólidos hasta el desarrollo de hábitos alimenticios saludables, con mi servicio de nutrición infantil en Tenerife sentaremos las bases de un crecimiento óptimo y una nutrición equilibrada desde los primeros días en la vida de tu bebé.
+                                </p>
+                                <button class="info-btn mt-3">Infórmate aquí &rarr;</button>
                             </div>
                         </div>
+
+                        <div class="card">
+                            <div class="card-header toggle-btn">
+                                <h3 class="font-titulo">Nutrición niños</h3>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="card-body" style="display: none;">
+                                <p class="font-parrafo">
+                                    Te acompañoen el desarrollo de tus hijos con servicios nutricionales diseñados exclusivamente para sus necesidades y circunstancias. Desde la etapa preescolar hasta la adolecencia, te guío con orientación que fomente hábitos alimenticios saludables y contribuye a su desarrollo y bienestar integral.
+                                </p>
+                                <button class="info-btn mt-3">Infórmate aquí &rarr;</button>
+                            </div>
+                        </div>
+
+                         <div class="card">
+                            <div class="card-header toggle-btn">
+                                <h3 class="font-titulo">Nutrición para el embarazo</h3>
+                                <span class="toggle-icon">+</span>
+                            </div>
+                            <div class="card-body" style="display: none;">
+                                <p class="font-parrafo">
+                                    Disfruta de un embarazo saludable apoyada del asesoramiento nutricional específico que te brindo en esta etapa tan importante y tan bonita de tu vida, asegurando un óptimo desarrollo de tu bebé y tu bienestar como futura mamá.
+                                </p>
+                                <button class="info-btn mt-3">Infórmate aquí &rarr;</button>
+                            </div>
+                        </div>
+
+
+                    </div>
 
                 </div>
 
@@ -196,7 +185,7 @@
         </section>
 
 
-        <section class="mt-5">
+        {{-- <section class="mt-5">
             <div class="row g-0" style="background-color: #E0E6C3;">
                 <div class="col-md-4">
                     <img src="assets/images/porque.jpg" alt="">
@@ -244,9 +233,9 @@
                 </div>
 
             </div>
-        </section>
+        </section> --}}
 
-        <section class="">
+        <section class="mt-5">
             <div class="row g-0" style="background-color: #DDB9CB;">
                 <div class="col-md-8">
                     <div class="row g-0">
@@ -262,34 +251,34 @@
 
                         <div class="row g-0 px-5">
                             <div class="col-6 mb-2 mt-2">
-                                <div class="mb-2">
-                                    <h6 class="font-titulo-services">
+                                <div class="mt-4 mb-4">
+                                    <h6 class="font-titulo">
                                         Perder peso de manera rapidísima
                                     </h6>
-                                    <p class="font-parrafo-services">Si quieres perder diez kg en siete días no soy tu nutricionista. Creo que la salud se construye de manera sostenible a lo largo del tiempo.
+                                    <p class="font-parrafo">Si quieres perder diez kg en siete días no soy tu nutricionista. Creo que la salud se construye de manera sostenible a lo largo del tiempo.
+                                    </p>
+                                </div>
+                                <div class="mb-4">
+                                    <h6 class="font-titulo">Ayudarte a comprar suplementos para perder peso</h6>
+                                    <p class="font-parrafo">En algunos casos son importantes, pero no los considero la base de una nutrición equilibrada.
                                     </p>
                                 </div>
                                 <div class="mb-2">
-                                    <h6 class="font-titulo-services">Ayudarte a comprar suplementos para perder peso</h6>
-                                    <p class="font-parrafo-services">En algunos casos son importantes, pero no los considero la base de una nutrición equilibrada.
-                                    </p>
-                                </div>
-                                <div class="mb-2">
-                                    <h6 class="font-titulo-services">“Talibanear” alimentos “no saludables” </h6>
-                                    <p class="font-parrafo-services">Creo en el equilibrio, con el disfrute ocasional de hamburguesas, pizzas o tartas, siempre en el contexto de una dieta globalmente equilibrada y adaptada a las necesidades individuales.
+                                    <h6 class="font-titulo">“Talibanear” alimentos “no saludables” </h6>
+                                    <p class="font-parrafo">Creo en el equilibrio, con el disfrute ocasional de hamburguesas, pizzas o tartas, siempre en el contexto de una dieta globalmente equilibrada y adaptada a las necesidades individuales.
                                     </p>
                                 </div>
                             </div>
 
-                            <div class="col-6 mt-2">
+                            <div class="col-6 mt-4 mb-4">
                                 <div class="">
-                                    <h6 class="font-titulo-services">Despilfarrar dinero en super-alimentos</h6>
-                                    <p class="font-parrafo-services">La clave para mí está en la variedad y calidad de la dieta.
+                                    <h6 class="font-titulo">Despilfarrar dinero en super-alimentos</h6>
+                                    <p class="font-parrafo">La clave para mí está en la variedad y calidad de la dieta.
                                     </p>
                                 </div>
                                 <div>
-                                    <h6 class="font-titulo-services">Sustituir comidas por batidos</h6>
-                                    <p class="font-parrafo-services">CAbogo por una alimentación natural basada en alimentos reales y sabrosos.
+                                    <h6 class="font-titulo">Sustituir comidas por batidos</h6>
+                                    <p class="font-parrafo">CAbogo por una alimentación natural basada en alimentos reales y sabrosos.
                                     </p>
                                 </div>
                             </div>
@@ -298,8 +287,8 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <img src="assets/images/morado.jpg" alt="">
+                <div class="div-morado col-md-4">
+                    <img src="assets/images/morado.jpg" class="img-morado">
                 </div>
 
             </div>
@@ -337,7 +326,7 @@
         <footer class="footer mt-5">
             <div class="row g-0">
                 <div class="d-flex justify-content-center text-center">
-                
+
                     <div class="col-md-2">
 
                     </div>
@@ -373,10 +362,17 @@
                 header.classList.toggle("abajo", window.scrollY>0);
             })
 
-            function toggleDropdown(button) {
-                const dropdown = button.closest('.dropdown');
-                dropdown.classList.toggle('show');
-            }
+          document.querySelectorAll('.toggle-btn').forEach(function(header) {
+            header.addEventListener('click', function() {
+            const card = this.closest('.card');
+            const body = card.querySelector('.card-body');
+            const icon = card.querySelector('.toggle-icon');
+
+            const isHidden = body.style.display === 'none' || body.style.display === '';
+            body.style.display = isHidden ? 'block' : 'none';
+            icon.textContent = isHidden ? '−' : '+';
+            });
+        });
 
 
         </script>

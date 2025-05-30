@@ -150,7 +150,6 @@ header.abajo ul li a{
     padding: 2rem 2rem;
     border-radius: 999px;
     font-weight: 600;
-    font-size: 1rem;
 }
 
 .conoceme-btn {
@@ -161,6 +160,10 @@ header.abajo ul li a{
     padding: 0.6rem 1.5rem; /* ← Menos alto, más ancho */
     font-weight: 600;
     font-size: 1rem;
+  }
+
+  .conoceme-btn:hover {
+    background-color: #9fa775 !important;
   }
 
 .circulo {
@@ -191,41 +194,10 @@ header.abajo ul li a{
 
 
 
-  .dropdown-ser {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-
-  }
-
-  .dropdown-button-service {
-    background: transparent;
-    border: 2px solid #F8C181;
-    color: #333;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    width: 100%;
-    border-radius: 15px;
-  }
-
-.dropdown-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s ease;
-  background: rgba(255, 255, 255, 0.95);
-  border: 2px solid #F8C181;
-  border-radius: 5px;
-  padding: 0 15px; /* sin padding vertical al inicio */
-  color: #333;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.dropdown-button-service:hover {
+    background-color: #aab678;
 }
 
-.dropdown.show .dropdown-content {
-    max-height: 500px; /* suficiente para todo el texto */
-    padding: 15px;
-}
 
 .cuadro {
     border: 1px solid #B0AEA0; /* Borde negro y delgado */
@@ -240,4 +212,74 @@ header.abajo ul li a{
 
 .iconos-sociales-footer{
     font-size: 25px;
+}
+
+.img-morado{
+max-height: 600px;
+}
+
+
+
+.card {
+  border: 1px solid #f4c27d;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: white;
+}
+
+.toggle-icon {
+  background-color: #cbd18f;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.info-btn {
+  background-color: #b3bb89; /* verde claro */
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* VISTA CONOCEME */
+.carousel-conoceme img {
+    width: 100%;
+    height: 450px; /* Puedes ajustar la altura */
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.conoceme-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.body-conoceme {
+  background-color: #c3c6c1;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+  height: 100%;
 }
