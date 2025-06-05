@@ -28,26 +28,23 @@
         </div>
     </section>
 
-    <section>
+    <section style="border-radius: 10%;">
         <div class="body-conoceme py-5">
             <div class="container bg-white p-0">
                 <div class="row g-0">
                 <!-- Imagen a la izquierda -->
-                <div class="col-md-6">
-                    <img src="ruta-de-tu-imagen.jpg" class="img-fluid h-100 w-100 object-fit-cover" alt="Imagen Acerca de">
+                <div class="col-md-4">
+                    <img src="assets/images/conoce.jpg" class="img-fluid h-100 w-100 object-fit-cover" alt="">
                 </div>
 
                 <!-- Texto a la derecha -->
-                <div class="col-md-6 p-5">
-                    <h2 class="fpnt-titulo fw-bold mb-4">Acerca de Eliane</h2>
-                    <p>
-                    Eliane Hurtado es una apasionada nutricionista comprometida con el bienestar integral de las personas.
-                    Con años de experiencia y formación especializada, ofrece asesorías personalizadas enfocadas en lograr un
-                    equilibrio físico y emocional a través de una alimentación consciente.
-                    </p>
-                    <p>
-                    Ha participado en congresos nacionales e internacionales, y su enfoque holístico la ha llevado a colaborar
-                    con profesionales de distintas áreas. Su objetivo es acompañar a cada persona en el camino hacia una vida más saludable.
+                <div class="col-md-8 p-5">
+                    <h2 class="font-titulo fw-bold mb-4" style="font-size: 38px">¡Y no paré hasta cumplir mi sueño!</h2>
+                    <p class="texto-info font-parrafo">
+                        Desde muy joven, siempre sentí una conexión especial con la cocina. Me fascinaba preparar recetas, experimentar con ingredientes y cuidar lo que comía. Fue así como, siendo aún una adolescente, descubrí que existía una carrera que combinaba perfectamente mis intereses: la Nutrición.
+                        Sin embargo, el camino no fue directo. Al terminar el colegio, decidí estudiar otra carrera dentro del ámbito de la salud. Ingresé a la Universidad Católica Sede Sapientiae. Pero con el tiempo, me di cuenta de que algo me faltaba. Aunque valoraba lo aprendido, no sentía esa chispa que me motivara cada día.
+                        Fue entonces cuando tomé la decisión de dar un giro. Me cambié a la carrera que realmente me apasionaba: Nutrición y Dietética. Desde el primer ciclo, supe que estaba en el lugar correcto. La combinación de ciencia, salud y alimentación era exactamente lo que siempre había buscado.
+                        Con el tiempo, nació Nutri Eli, un proyecto que refleja mi visión de una vida saludable, realista y cercana. Hoy me dedico con entusiasmo a acompañar a otras personas en su camino hacia el bienestar, compartiendo lo que he aprendido y creciendo junto a cada paciente.
                     </p>
                 </div>
                 </div>
@@ -56,3 +53,4 @@
 
     </section>
 
+<script src="assets/app.js"></script>

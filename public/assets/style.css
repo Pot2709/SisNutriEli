@@ -14,7 +14,7 @@ header{
     display: flex;
     justify-content: space-around;
     transition: 0.75s;
-    padding: 30px 20px;
+    padding: 40px 20px;
     z-index: 10;
     /*background-color: #F7F8F6;*/
     /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
@@ -276,10 +276,16 @@ max-height: 600px;
 }
 
 .body-conoceme {
-  background-color: #c3c6c1;
+  background-color: #fff;
 }
 
 .object-fit-cover {
   object-fit: cover;
   height: 100%;
 }
+
+.texto-info {
+    line-height: 1.8;
+    font-size: 17px;
+}
+

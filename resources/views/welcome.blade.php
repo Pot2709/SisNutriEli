@@ -126,7 +126,7 @@
             </div>
         </section>
 
-        <section class="mt-5 mb-5">
+        <section class="mt-5 mb-5" >
             <div class="row g-0">
                 <div class="col-6 px-5">
                     <h1 class="font-titulo fs-1">Mis servicios de nutrición</h1>
@@ -356,27 +356,8 @@
 
 
 
-        <script type="text/javascript">
-            window.addEventListener("scroll",function(){
-                var header = document.querySelector("header");
-                header.classList.toggle("abajo", window.scrollY>0);
-            })
 
-          document.querySelectorAll('.toggle-btn').forEach(function(header) {
-            header.addEventListener('click', function() {
-            const card = this.closest('.card');
-            const body = card.querySelector('.card-body');
-            const icon = card.querySelector('.toggle-icon');
-
-            const isHidden = body.style.display === 'none' || body.style.display === '';
-            body.style.display = isHidden ? 'block' : 'none';
-            icon.textContent = isHidden ? '−' : '+';
-            });
-        });
-
-
-        </script>
-
+        <script src="assets/app.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
     </body>
