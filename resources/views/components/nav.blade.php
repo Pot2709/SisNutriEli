@@ -1,7 +1,10 @@
 <link rel="stylesheet" href="assets/style.css">
 
 <header>
-    <a href="#" class="logo">LOGO</a>
+    <a href="{{ url('/') }}" class="logo">
+        <img src="assets/images/logooo.png" alt="Logo" style="width: 12%;">
+    </a>
+
     <nav>
         <ul>
             <li><a href="#">SOBRE MI</a></li>

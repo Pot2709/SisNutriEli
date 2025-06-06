@@ -14,7 +14,7 @@ header{
     display: flex;
     justify-content: space-around;
     transition: 0.75s;
-    padding: 40px 20px;
+    padding: 20px 20px;
     z-index: 10;
     /*background-color: #F7F8F6;*/
     /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
@@ -33,7 +33,7 @@ header .logo{
 
 header.abajo{
     background: #fff;
-    padding: 25px 25px;
+    padding: 10px 10px;
 
 }
 
@@ -214,9 +214,6 @@ header.abajo ul li a{
     font-size: 25px;
 }
 
-.img-morado{
-max-height: 600px;
-}
 
 
 
@@ -247,6 +244,35 @@ max-height: 600px;
   font-weight: bold;
 }
 
+/* footer */
+.footer {
+  background-color: #f5f5f5; /* color de fondo claro, puedes cambiar */
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.footer img {
+  margin-bottom: 15px;
+}
+
+.iconos-sociales-footer i {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.iconos-sociales-footer i:hover {
+  color: #b3bb89; /* verde claro al pasar el mouse */
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
 .info-btn {
   background-color: #b3bb89; /* verde claro */
   color: #fff;
@@ -256,6 +282,8 @@ max-height: 600px;
   font-size: 14px;
   cursor: pointer;
 }
+
+
 
 /* VISTA CONOCEME */
 .carousel-conoceme img {

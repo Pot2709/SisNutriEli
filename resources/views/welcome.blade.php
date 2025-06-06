@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>NutriEli</title>
+        <title>NutriEli | Nutricionista Lima-Perú</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -263,11 +263,19 @@
                                     <p class="font-parrafo">En algunos casos son importantes, pero no los considero la base de una nutrición equilibrada.
                                     </p>
                                 </div>
-                                <div class="mb-2">
+                                <div class="mb-3">
                                     <h6 class="font-titulo">“Talibanear” alimentos “no saludables” </h6>
                                     <p class="font-parrafo">Creo en el equilibrio, con el disfrute ocasional de hamburguesas, pizzas o tartas, siempre en el contexto de una dieta globalmente equilibrada y adaptada a las necesidades individuales.
                                     </p>
                                 </div>
+
+                                 <div class="mb-3">
+                                    <h6 class="font-titulo">“Talibanear” alimentos “no saludables” </h6>
+                                    <p class="font-parrafo">Creo en el equilibrio, con el disfrute ocasional de hamburguesas, pizzas o tartas, siempre en el contexto de una dieta globalmente equilibrada y adaptada a las necesidades individuales.
+                                    </p>
+                                </div>
+
+
                             </div>
 
                             <div class="col-6 mt-4 mb-4">
@@ -279,6 +287,11 @@
                                 <div>
                                     <h6 class="font-titulo">Sustituir comidas por batidos</h6>
                                     <p class="font-parrafo">CAbogo por una alimentación natural basada en alimentos reales y sabrosos.
+                                    </p>
+                                </div>
+                                 <div class="mb-2">
+                                    <h6 class="font-titulo">“Talibanear” alimentos “no saludables” </h6>
+                                    <p class="font-parrafo">Creo en el equilibrio, con el disfrute ocasional de hamburguesas, pizzas o tartas, siempre en el contexto de una dieta globalmente equilibrada y adaptada a las necesidades individuales.
                                     </p>
                                 </div>
                             </div>
@@ -323,36 +336,10 @@
             </div>
         </section>
 
-        <footer class="footer mt-5">
-            <div class="row g-0">
-                <div class="d-flex justify-content-center text-center">
 
-                    <div class="col-md-2">
+        <x-footer />
 
-                    </div>
 
-                    <div class="col-md-8">
-                        <div class="iconos-sociales-footer">
-                            <i class="bi bi-facebook"></i>
-                            <i class="bi bi-youtube"></i>
-                            <i class="bi bi-instagram"></i>
-                        </div>
-
-                        <div>
-                            <p>Páginas Legales, Accesibilidad y Mapa del sitio</p>
-                        </div>
-                        <div>
-                            <p>© Eliane Hurtado Nutrición. Todos los derechos reservados.    |   Diseño: RESERVAOS Diseños y Optimizaciones Lima-Perú</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-2">
-
-                    </div>
-
-                </div>
-            </div>
-        </footer>
 
 
 
